@@ -1,0 +1,7 @@
+id	worker	order	station	fixture	seen	phase
+R1	向	1	西台	K3	I2|I4	已做
+R2	向	2	西台	K2	I3	待做
+R3	沈	1	西台	K2	I2	已做
+R4	沈	2	西台	K3	I5	已做
+R5	郝	1	东台	K2	I2	拟排
+R6	郝	2	东台	K3	I5	拟排

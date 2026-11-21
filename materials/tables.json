@@ -1,0 +1,49 @@
+{
+  "columns": {
+    "instructions.tsv": [
+      "id",
+      "visible",
+      "ref",
+      "text"
+    ],
+    "runs.tsv": [
+      "id",
+      "worker",
+      "order",
+      "station",
+      "fixture",
+      "seen",
+      "phase"
+    ],
+    "feedback.tsv": [
+      "id",
+      "run",
+      "at",
+      "author",
+      "text"
+    ],
+    "assets.tsv": [
+      "id",
+      "station",
+      "limits"
+    ]
+  },
+  "references": [
+    [
+      "instructions.tsv",
+      "ref",
+      "instructions.tsv"
+    ],
+    [
+      "runs.tsv",
+      "seen",
+      "instructions.tsv"
+    ],
+    [
+      "feedback.tsv",
+      "run",
+      "runs.tsv"
+    ]
+  ],
+  "compound_keys": []
+}
