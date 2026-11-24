@@ -1,4 +1,5 @@
 """资料包的格式、编号和装载测试。"""
+import bootstrap  # noqa: F401  隔离模式路径引导
 from pathlib import Path
 import shutil
 import tempfile
